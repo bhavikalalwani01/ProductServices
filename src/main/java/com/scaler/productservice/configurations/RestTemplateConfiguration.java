@@ -10,7 +10,8 @@ public class RestTemplateConfiguration {
 
     @Bean
     public RestTemplate restTemplate() {
-        return new RestTemplate();
+//        return new RestTemplate();
+        return new org.springframework.web.client.RestTemplate();
     }
 }
 
